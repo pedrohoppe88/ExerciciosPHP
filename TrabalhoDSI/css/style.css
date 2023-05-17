@@ -1,0 +1,20 @@
+    .container {
+      margin-top: 40px;
+    }
+    
+    .img-fluid{
+      width: 350px;
+      margin-left: -100px;
+
+    }
+
+    @media screen and (max-width: 990px) {
+      .img-fluid {
+        width: 200px;
+        margin-left: 50px;
+    }
+
+  }
+  .error {
+    border: solid 2px red;
+  }
